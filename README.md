@@ -1,35 +1,38 @@
-# 📊 Student Performance Dashboard
+# Student Performance Prediction Dashboard
 
-An interactive **Student Performance Dashboard** built with **Streamlit**, **Pandas**, and **NumPy**.  
-This project analyzes student marks and visualizes performance trends to help understand academic progress.
-
----
-
-## 🚀 Features
-- 📈 Interactive dashboard using **Streamlit**
-- 🎯 Subject-wise and overall performance analysis
-- 📊 Data handling with **Pandas & NumPy**
-- 🔍 Visualizations (bar charts, line charts, pie charts, etc.)
-- 📂 Includes Jupyter notebooks (`Project.ipynb`, `class.ipynb`) for data exploration
+A **Python-based interactive dashboard** to analyze and predict student performance using **Streamlit**, **Pandas**, **Plotly**, and **Scikit-learn**.
 
 ---
 
-## 🛠️ Tech Stack
-- **Python 3.9+**
-- **Streamlit**
-- **Pandas**
-- **NumPy**
-- **Matplotlib / Plotly** (for charts)
+## Features
+
+- 📊 **Visualizations**
+  - GPA Distribution by major
+  - Average scores by major
+  - Study hours vs GPA
+  - Attendance vs GPA
+  - Correlation heatmap
+- 🎯 **GPA Prediction**
+  - Predict GPA based on Math, Science, English scores, attendance rate, and study hours per week.
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
+
+- **Language:** Python  
+- **Data Handling:** Pandas, NumPy  
+- **Machine Learning:** Scikit-learn (Linear Regression)  
+- **Visualization:** Plotly (express & graph_objects)  
+- **Dashboard:** Streamlit  
+
+---
+
+## Project Structure
+
+Workshop/
+│── Project.ipynb 
+│── class.ipynb 
+│── student_dashboard.py
+│── student_performance_data.csv
 
 
-Student_performance_dashboard/
-│── student_dashboard.py # Main Streamlit dashboard
-│── student_performance_data.csv # Dataset file
-│── Project.ipynb # Notebook for data analysis
-│── class.ipynb # Notebook for class-level insights
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
